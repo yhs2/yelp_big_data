@@ -31,7 +31,16 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-xs-12 text-left">
-                    
+                    <p class="lead">
+                        Derived from the analysis session and star missing issue in the dataset, A deep learning algorithm
+                        is conducted to predict the reviewer's attitude label based on the text meaning. We introduced the
+                        Pytorch framework due to its high flexibility to design the Neural Network, and LSTM architec-
+                        ture to avoid the gradient vanishing problem. Several Pyspark scripts with nltk and scikit-learn
+                        2
+                        packages are also involved to construct the balanced dataset after performing the general NLP
+                        pipeline(sentence splitting, tokenization, etc.)
+
+                    </p>
                     <p class="lead">
                         This graph mainly shows the overall performance of our LSTM. We could see at the end of training, 
                         the model could classify the test dataset with average of 0.48 accuaracy for 5 labels.  
