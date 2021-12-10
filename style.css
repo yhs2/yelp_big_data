@@ -141,14 +141,14 @@ label{
     
     top: 10px;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 2rem;
+    height: 2rem;
 }
 
 .resize-image-text{
     border-radius: 8px;
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
 	box-shadow: 10px 10px 5px grey;
 }
 

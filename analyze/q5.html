@@ -13,63 +13,65 @@
     </head>
     <body>
         <header>
-			<p class="h1" style="text-align: center;">header</p>
+			<p class="h1" style="text-align: center;">   How attributes affect businesses’ stars / Prediction on stars
+            </p>
             <hr>
 		</header>
         
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-md-6 col-xs-12 align-self-center">
-                    <img src="../images/yelpIcon.jpg" class="resize-image-text" alt="yelpIcon">
-                </div>
-                <div class="col-sm-6 col-md-6 col-xs-12 text-center">
-                    <h2>
-                        Description
-                    </h2>
+                <figure class="col-sm-6 col-md-6 col-xs-12 align-self-center">
+                    <img src="../images/How attributes affect B(Noise).png" class="resize-image-text" alt="yelpIcon">
+                    <figcaption style="margin-top: 1rem;"><strong>Fig1.</strong></figcaption>
+                </figure>
+                <div class="col-sm-6 col-md-6 col-xs-12 text-left">
                     <p class="lead">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                       Fig.1 Demonstrates how noise level affect average review stars. It is obvious that enviroment of the business is important
                     </p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-md-6 col-xs-12 align-self-center">
-                    <img src="../images/yelpIcon.jpg" class="resize-image-text" alt="yelpIcon">
-                </div>
-                <div class="col-sm-6 col-md-6 col-xs-12 text-center">
-                    <h2>
-                        Description
-                    </h2>
+                <figure class="col-sm-6 col-md-6 col-xs-12 align-self-center">
+                    <img src="../images/How attributes affect B(Has Wifi).png" class="resize-image-text" alt="yelpIcon" style="width: 100%; height: 100%;">
+                    <figcaption style="margin-top: 1rem;"><strong>Fig2.</strong></figcaption>
+                </figure>
+                <div class="col-sm-6 col-md-6 col-xs-12 text-left">
+                    
                     <p class="lead">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                        Fig.2 Demonstrates how noise Free wifi affect average review stars. Wifi is not a big factor when it comes to business rating.
+
                     </p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-md-6 col-xs-12 align-self-center">
-                    <img src="../images/yelpIcon.jpg" class="resize-image-text" alt="yelpIcon">
-                </div>
-                <div class="col-sm-6 col-md-6 col-xs-12 text-center">
-                    <h2>
-                        Description
-                    </h2>
+                <figure class="col-sm-6 col-md-6 col-xs-12 align-self-center">
+                    <img src="../images/How attributes affect B(Dogs Allowed).png" class="resize-image-text" alt="yelpIcon" style="width: 100%; height: 100%;">
+                    <figcaption style="margin-top: 1rem;"><strong>Fig3.</strong></figcaption>
+                </figure>
+                <div class="col-sm-6 col-md-6 col-xs-12 text-left">
+                    
                     <p class="lead">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                        
+                        Fig.3 Demonstrates how allowance of pets affect average review stars. Of course, everyone loves pets, however it can also be an potential issue because
+                        Not all people love to have pets in the place where they eat food. 
                     </p>
                 </div>
             </div>
+            
             <div class="row">
-                <div class="col-sm-6 col-md-6 col-xs-12 align-self-center">
-                    <img src="../images/yelpIcon.jpg" class="resize-image-text" alt="yelpIcon">
-                </div>
-                <div class="col-sm-6 col-md-6 col-xs-12 text-center">
-                    <h2>
-                        Description
-                    </h2>
+                <figure class="col-sm-6 col-md-6 col-xs-12 align-self-center">
+                    <img src="../images/Use attribute to predict B 1.png" class="resize-image-text" alt="yelpIcon">
+                    <figcaption style="margin-top: 1rem;"><strong>Fig1.</strong></figcaption>
+                </figure>
+                <div class="col-sm-6 col-md-6 col-xs-12 text-left">
                     <p class="lead">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                        For predicting stars, we use attributes such as states, price range, and noise level to do prediction on stars. 
+                        As shown in the figure, there is correlation between true stars and predicted stars. We have a validation r2 score of 0.5, which is not a high score. However, it is a meaningful result, because we found that some features can affect the prediction in the right way. One main problem with the Yelp dataset is that lots of businesses do not have attributes such as wifi, noise level, which makes our prediction dataset small. 
+                        If these kinds of attributes can be filled up. We can collect more data and add more features, which can make our predictions much better.
                     </p>
                 </div>
             </div>
+        
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="./js/landing.js"></script>
